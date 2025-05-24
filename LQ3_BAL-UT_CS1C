@@ -1,0 +1,67 @@
+// Ask for user input
+let name = prompt("Enter your Name:");
+let address = prompt("Enter your Address:");
+let age = parseInt(prompt("Enter your Age:"));
+let classRole = prompt("Enter your Class Role (Officer, Student, Teacher):");
+let course = prompt("Enter your Course (BSCS, BSM, BAEL):");
+
+// Check the course and class role
+switch (course) {
+    case "BSCS":
+        if (classRole === "Officer") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else if (classRole === "Student") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else if (classRole === "Teacher") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else {
+            alert("Invalid Class Role. Please enter Officer, Student, or Teacher.");
+        }
+        break;
+
+    case "BSM":
+        if (classRole === "Officer") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else if (classRole === "Student") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else if (classRole === "Teacher") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else {
+            alert("Invalid Class Role. Please enter Officer, Student, or Teacher.");
+        }
+        break;
+
+    case "BAEL":
+        if (classRole === "Officer") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else if (classRole === "Student") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else if (classRole === "Teacher") {
+            for (let i = 0; i < age / 4; i++) {
+                console.log(name);
+            }
+        } else {
+            alert("Invalid Class Role. Please enter Officer, Student, or Teacher.");
+        }
+        break;
+
+    default:
+        alert("Invalid Course. Please enter BSCS, BSM, or BAEL.");
+        break;
+}
